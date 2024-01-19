@@ -4,19 +4,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ask hub blogs login </title>
-    <!-- <style>    </style> -->
-    <link rel="stylesheet" href="./assets/css/index.css">
+    <title>ask hub blogs | login </title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
 </head>
 
-<body>
+<body class="flex justify-center items-center w-full h-[100vh] bg-blue-600">
+    <div class="mx-auto min-w-[300px] bg-green-800 p-5 rounded shadow-2xl">
+        <!-- logo -->
+        <div class=" flex justify-center items-center pb-[40px]">
+            <div class="w-[80px] h-[80px]">
+                <img src="./card.jpg" alt="" class="w-full h-full object-cover mx-auto rounded-full">
+            </div>
+        </div>
+        <!-- emial form  -->
+        <div>
+            <form action="">
+                <div class="mb-[20px] flex flex-col gap-y-3">
+                    <label for="email" class="text-[16px] text-white capitalize">email</label>
+                    <input type="email" name="email" id="email"
+                        class="bg-transparent border-b border-solid border-white">
+                </div>
+                <div class="mb-[20px] flex flex-col gap-y-3">
+                    <label for="password" class="text-[16px] text-white capitalize">password</label>
+                    <input type="password" name="password" id="password"
+                        class="bg-transparent border-b border-solid border-white">
+                </div>
+                <div class="mb-[20px] inline-block">
+                    <input type="submit" value="login"
+                        class="py-[5px] px-[15px] bg-white inline cursor-pointer capitalize rounded">
+                </div>
+            </form>
+        </div>
+        <!-- buttons -->
+        <div>
+            <a href="" class="bg-white text-center block rounded"><button
+                    class="cursor-point px-[20px] py-[10px] capitalize">login
+                    with google</button></a>
+        </div>
 
-    <div class="container flex">
-        <div class="">123</div>
-        <div class="">123</div>
-        <div class="">123</div>
     </div>
-    <p>this is ask hub blogs</p>
 </body>
 
 </html>
